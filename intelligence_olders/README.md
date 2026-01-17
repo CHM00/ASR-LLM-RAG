@@ -1,19 +1,3 @@
-<<<<<<< HEAD
----
-license: CC BY-NC 4.0
-#用户自定义标签
-tags:
-  - Datawhale
-
-text:
-  #二级只能属于一个task_categories
-  auto-speech-recognition:
-    #三级可以多选
-    languages:
-      - cn
-
----  
-
 # 语音识别与意图分析系统
 
 本项目是一个基于语音识别和大语言模型的智能分析系统，可以从音频文件中识别语音内容，并分析用户的外卖点餐意图及食物信息。
@@ -38,7 +22,7 @@ text:
 ├── main_test_organized.py # 主程序脚本
 ├── model.py               # FunASR模型定义文件（如果使用remote_code）
 ├── requirements.txt       # 项目依赖
-├── .env                   # 环境变量配置（API密钥等）- 不要上传到公共仓库
+├── .env                   # 环境变量配置（API密钥等）
 ├── README.md              # 本说明文件
 └── A.txt                  # UUID顺序文件
 ```
@@ -131,8 +115,3 @@ python main_test_organized.py
 * **API密钥错误**：检查`.env`文件中的API密钥是否正确。
 * **音频文件无法识别**：确保音频文件格式受支持，质量良好，尝试不同的VAD参数。
 * **LLM分析结果不准确**：可尝试调整提示词或模型参数。
-=======
-# 饿了么算法大赛-智慧养老比赛
-
-## 比赛代码, 更新后
->>>>>>> 7f4aaca797298961f3e02f0d98a5fc9ba9f00c98
